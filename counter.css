@@ -1,0 +1,27 @@
+#counterlabel{
+    display: block;
+    font-size: 10em;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#buttoncontainer{
+    text-align: center;
+}
+
+.buttons{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: hsl(209, 96%, 69%);
+    color: rgb(182, 234, 255);
+}
+
+.buttons:hover{
+    cursor: pointer;
+    background-color: hsl(209, 100%, 91%);
+    color: rgb(90, 203, 248);
+
+}
